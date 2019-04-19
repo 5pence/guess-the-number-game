@@ -2,6 +2,8 @@ package spencer.barriball.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import spencer.barriball.GuessCount;
+import spencer.barriball.MaxNumber;
 
 @Configuration
 public class GameConfig {
@@ -12,11 +14,13 @@ public class GameConfig {
 
     // == beans methods ==
     @Bean
+    @MaxNumber
     public int maxNumber() {
         return maxNumber;
     }
 
     @Bean
+    @GuessCount
     public int guessCount() {
         return guessCount;
     }
