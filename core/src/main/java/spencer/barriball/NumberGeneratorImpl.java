@@ -1,7 +1,6 @@
 package spencer.barriball;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
@@ -14,10 +13,26 @@ public class NumberGeneratorImpl implements NumberGenerator {
     @MaxNumber
     private int maxNumber;
 
+    @Autowired
+    @MinNumber
+    private int minNumber;
+
     // == public methods ==
     @Override
     public int next() {
-        return random.nextInt(maxNumber);
+        return getRandomNumberInRange(minNumber, maxNumber);
+    }
+
+    private static int getRandomNumberInRange(int minNumber, int maxNumber) {
+        if (minNumber >= maxNumber) {
+            throw new IllegalArgumentException("Max number must be greater than min number");
+        }
+        return (int)(Math.random() * ((maxNumber - minNumber) + 1)) + minNumber;
+    }
+
+    @Override
+    public int getMinNumber() {
+        return minNumber;
     }
 
     @Override

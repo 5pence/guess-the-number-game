@@ -6,16 +6,20 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import spencer.barriball.GuessCount;
 import spencer.barriball.MaxNumber;
+import spencer.barriball.MinNumber;
 
 @Configuration
 @PropertySource("classpath:config/game.properties")
 public class GameConfig {
 
     // == fields ==
-    @Value("${game.maxNumber}")
+    @Value("${game.maxNumber:20}")
     private int maxNumber;
 
-    @Value("${game.guessCount}")
+    @Value("${game.minNumber:0}")
+    private int minNumber;
+
+    @Value("${game.guessCount:5}")
     private int guessCount;
 
     // == beans methods ==
@@ -23,6 +27,12 @@ public class GameConfig {
     @MaxNumber
     public int maxNumber() {
         return maxNumber;
+    }
+
+    @Bean
+    @MinNumber
+    public int getMinNumber() {
+        return minNumber;
     }
 
     @Bean
