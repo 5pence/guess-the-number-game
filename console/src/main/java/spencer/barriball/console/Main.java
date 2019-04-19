@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spencer.barriball.config.AppConfig;
+import spencer.barriball.config.GameConfig;
 
 public class Main {
 
@@ -14,7 +14,7 @@ public class Main {
         log.info("Guess the number game!");
 
         // create context (container)
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfig.class);
 
         // close context (container)
         context.close();
