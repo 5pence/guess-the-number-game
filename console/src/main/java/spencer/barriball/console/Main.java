@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spencer.barriball.AppConfig;
+import spencer.barriball.config.AppConfig;
 import spencer.barriball.MessageGenerator;
 import spencer.barriball.NumberGenerator;
 
