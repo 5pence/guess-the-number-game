@@ -12,7 +12,8 @@ public class Main {
         log.info("Guess the number game!");
 
         // create context (container)
-        ConfigurableApplicationContext context = new AnnotationConfigApplicationContext(GameConfig.class);
+        ConfigurableApplicationContext context =
+                new AnnotationConfigApplicationContext(GameConfig.class);
 
         // close context (container)
         context.close();
