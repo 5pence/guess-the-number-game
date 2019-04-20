@@ -1,18 +1,20 @@
 package spencer.barriball;
 
+import lombok.AccessLevel;
+import lombok.Getter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
 @Component
+@Getter
 public class NumberGeneratorImpl implements NumberGenerator {
 
     // == fields ==
+    @Getter(AccessLevel.NONE)
     private final Random random = new Random();
-
     private final int maxNumber;
-
     private final int minNumber;
 
     // == constructor ==
@@ -33,15 +35,5 @@ public class NumberGeneratorImpl implements NumberGenerator {
             throw new IllegalArgumentException("Max number must be greater than min number");
         }
         return (int)(Math.random() * ((maxNumber - minNumber) + 1)) + minNumber;
-    }
-
-    @Override
-    public int getMinNumber() {
-        return minNumber;
-    }
-
-    @Override
-    public int getMaxNumber() {
-        return maxNumber;
     }
 }
