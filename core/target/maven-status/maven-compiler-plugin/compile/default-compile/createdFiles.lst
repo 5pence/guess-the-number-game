@@ -1,7 +1,10 @@
 spencer\barriball\MessageGenerator.class
 spencer\barriball\Game.class
+spencer\barriball\config\GameConfig.class
+spencer\barriball\MaxNumber.class
 spencer\barriball\NumberGeneratorImpl.class
 spencer\barriball\MessageGeneratorImpl.class
+spencer\barriball\MinNumber.class
 spencer\barriball\NumberGenerator.class
-spencer\barriball\AppConfig.class
 spencer\barriball\GameImpl.class
+spencer\barriball\GuessCount.class

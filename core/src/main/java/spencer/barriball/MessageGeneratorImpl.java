@@ -22,7 +22,6 @@ public class MessageGeneratorImpl implements MessageGenerator {
         this.game = game;
     }
 
-
     // == init ==
     @PostConstruct
     public void init() {

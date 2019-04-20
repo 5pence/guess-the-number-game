@@ -4,4 +4,7 @@ C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\Ga
 C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\NumberGenerator.java
 C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\MessageGenerator.java
 C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\MessageGeneratorImpl.java
-C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\AppConfig.java
+C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\GuessCount.java
+C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\MaxNumber.java
+C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\config\GameConfig.java
+C:\code\JavaCourse\guess-the-number-game\core\src\main\java\spencer\barriball\MinNumber.java
