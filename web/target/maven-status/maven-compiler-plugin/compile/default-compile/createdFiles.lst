@@ -1,3 +1,5 @@
 spencer\barriball\config\WebConfig.class
-spencer\barriball\util\ViewNames.class
+spencer\barriball\service\GameService.class
+spencer\barriball\service\GameServiceImpl.class
 spencer\barriball\Webmain.class
+spencer\barriball\util\ViewNames.class
