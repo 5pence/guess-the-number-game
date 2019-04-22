@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head th:replace="~{fragments/head :: headFragment}">
+<html lang="en">
+<head id="headId">
     <meta charset="UTF-8">
     <title>Guess the number game</title>
 </head>
@@ -8,23 +8,23 @@
     <div align="center">
         <h1>Guess the number game</h1>
         <h2>Game Over</h2>
-        <h3 th:text="${__${T(spencer.barriball.util.AttributeNames).RESULT_MESSAGE}__}">
+        <h3 id="resultMessage">
             Result Message Content
         </h3>
 
         <h3>
-            <a th:href="@{__${T(spencer.barriball.util.GameMappings).RESTART}__}">
+            <a id="restart">
                 Play Again
             </a>
         </h3>
 
         <h3>
-            <a th:href="@{__${T(spencer.barriball.util.GameMappings).HOME}__}">
+            <a id="linkToHome">
                 Home
             </a>
         </h3>
 
-        <footer th:replace="~{fragments/footer :: footerFragment}">
+        <footer id="footerId">
             <p>Created by Spencer Barriball</p>
         </footer>
 
