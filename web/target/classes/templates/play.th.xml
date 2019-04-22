@@ -1,0 +1,12 @@
+<thlogic>
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#mainMessage"
+          th:text="${__${T(spencer.barriball.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel="#resultMessage"
+          th:text="${__${T(spencer.barriball.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#gameForm"
+          th:action="@{__${T(spencer.barriball.util.GameMappings).PLAY}__}"/>
+    <attr sel="#footerId"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+</thlogic>
