@@ -43,4 +43,10 @@ public class GameController {
         gameService.checkGuess(guess);
         return GameMappings.REDIECT_PLAY;
     }
+
+    @GetMapping(GameMappings.RESTART)
+    public String restart() {
+        gameService.reset();
+        return GameMappings.REDIECT_PLAY;
+    }
 }

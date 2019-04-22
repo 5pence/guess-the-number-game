@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cadd08f7-6d4e-48db-a0b6-83ae2b2915ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/templates/play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/templates/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/templates/play.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,17 +58,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/play.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="80" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="80" />
+            <state relative-caret-position="374">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/game-over.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+            <state relative-caret-position="308">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            <state relative-caret-position="110">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -101,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="608">
+              <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,11 +168,12 @@
         <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/service/GameService.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/service/GameServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/AttributeNames.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/ViewNames.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/play.html" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/templates/game-over.html" />
+        <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java" />
       </list>
     </option>
   </component>
@@ -393,6 +402,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555928434907" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/console/src/main/java/spencer/barriball" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -401,17 +411,17 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\resources\templates" />
+      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\java" />
+      <recent name="C:\code\JavaCourse\guess-the-number-game\core\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="spencer.barriball" />
       <recent name="spencer.barriball.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\resources\templates" />
-      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\java" />
-      <recent name="C:\code\JavaCourse\guess-the-number-game\core\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\JavaCourse\guess-the-number-game\web\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,12 +504,12 @@
       <workItem from="1555758910782" duration="2492000" />
       <workItem from="1555769851119" duration="195000" />
       <workItem from="1555882697232" duration="7704000" />
-      <workItem from="1555928688507" duration="802000" />
+      <workItem from="1555928688507" duration="3491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35979000" />
+    <option name="totallyTimeSpent" value="38668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
@@ -782,13 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/ViewNames.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -796,27 +799,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/play.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="374">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/play.html">
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/game-over.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="80" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="80" />
+        <state relative-caret-position="374">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/util/GameMappings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="308">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/spencer/barriball/controller/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
