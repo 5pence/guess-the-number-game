@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
-<head>
+<head th:replace="~{fragments/head :: headFragment}">
     <meta charset="UTF-8">
     <title>Guess the number game</title>
 </head>
@@ -24,7 +24,7 @@
             </a>
         </h3>
 
-        <footer>
+        <footer th:replace="~{fragments/footer :: footerFragment}">
             <p>Created by Spencer Barriball</p>
         </footer>
 
